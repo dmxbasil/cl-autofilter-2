@@ -21,7 +21,7 @@ async def index_files(bot, query):
     if raju == 'reject':
         await query.message.delete()
         await bot.send_message(int(from_user),
-                               f'ʏᴏᴜʀ sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ {chat} ʜᴀs ʙᴇᴇɴ ᴅᴇᴄʟɪɴᴅ ʙʏ @basildmx2 (ʀᴇᴀsᴏɴ » ᴍᴀʏʙᴇ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ʜᴀs ɴᴏ ᴅᴏᴄ,ᴏʀ ᴠɪᴅᴇᴏ «|» ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ)',
+                               f'ʏᴏᴜʀ sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ {chat} ʜᴀs ʙᴇᴇɴ ᴅᴇᴄʟɪɴᴅ ʙʏ ᴀɴ ᴀᴅᴍɪɴ (ʀᴇᴀsᴏɴ » ᴍᴀʏʙᴇ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ʜᴀs ɴᴏ ᴅᴏᴄ,ᴏʀ ᴠɪᴅᴇᴏ «|» ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ)',
                                reply_to_message_id=int(lst_msg_id))
         return
 
@@ -32,7 +32,7 @@ async def index_files(bot, query):
     await query.answer('Processing...⏳', show_alert=True)
     if int(from_user) not in ADMINS:
         await bot.send_message(int(from_user),
-                               f'ʏᴏᴜʀ sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ ᴛʜɪs {chat} ʜᴀs ʙᴇᴇɴ ᴀᴄᴄᴇᴘᴛᴇᴅ ʙʏ @basildmx2 ᴀɴᴅ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴀᴅᴅᴇᴅ sᴏᴏɴ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ',
+                               f'ʏᴏᴜʀ sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ ᴛʜɪs {chat} ʜᴀs ʙᴇᴇɴ ᴀᴄᴄᴇᴘᴛᴇᴅ ʙʏ ᴀɴ ᴀᴅᴍɪɴ ᴀɴᴅ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴀᴅᴅᴇᴅ sᴏᴏɴ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ',
                                reply_to_message_id=int(lst_msg_id))
     await msg.edit(
         "Starting Indexing",

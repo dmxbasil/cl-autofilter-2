@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """𝑯𝒆𝒚 {}
 𝑯𝒆𝒓𝒆 𝒊𝒔 𝒎𝒚 𝒉𝒆𝒍𝒑 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒔."""
     ABOUT_TXT = """✯ ᴍʏ ɴᴀᴍᴇ » {}
-✯ ᴄʀᴇᴀᴛᴏʀ » <a href=https://t.me/dmx_bots/4>ᴛᴇᴀᴍ ᴅᴍx</a>
+✯ ᴄʀᴇᴀᴛᴏʀ » <a href=https://t        >ʙɪʙɪɴ</a>
 ✯ ʟɪʙʀᴀʀʏ » <a href=https://docs.pyrogram.org/>ᴘʏʀᴏɢʀᴀᴍ</a>
 ✯ ʟᴀɴɢᴜᴀɢᴇ » <a href=https://www.python.org/>ᴘʏᴛʜᴏɴ</a>
 ✯ ᴠᴇʀsɪᴏɴ » 3

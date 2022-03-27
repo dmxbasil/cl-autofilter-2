@@ -41,7 +41,7 @@ async def start(client, message):
             InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='https://t.me/Movieprint')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ 🥵', callback_data='about')
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ ❤️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -82,7 +82,7 @@ async def start(client, message):
             InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='https://t.me/Movieprint')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ 🥵', callback_data='about')
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ ❤️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(

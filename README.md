@@ -1,6 +1,4 @@
 
-  <a href=https:/telegram.dog/lisa_v8inlinebot>𝑳𝒊𝒔𝒂 ᴠ8 ♡︎</a>
-</h1>
 
 
 ## Features
@@ -65,7 +63,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/dmxbasil/Indian-rock-v9/tree/master">
+<a href="https://github.com/dmxbasil/cl-autofilter-2tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
